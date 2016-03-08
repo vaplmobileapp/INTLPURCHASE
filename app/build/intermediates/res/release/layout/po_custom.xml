@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+ <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"     
+        android:textSize="17dp"    
+          android:textColor="#272727"       
+        android:text="PO No    :  "    
+      
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+         android:textColor="#272727" 
+        android:text="Docdate  : "
+          android:textSize="15dp" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+         android:textColor="#272727" 
+        android:text="Category : "
+        android:textSize="15dp" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+         android:textColor="#272727" 
+        android:text="Party       : "
+        android:textSize="15dp" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        
+         android:textColor="#272727"
+        android:id="@+id/continent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:textSize="15dp" 
+        android:text="TextView" />
+ 
+    <TextView
+          android:textColor="#272727"
+        android:id="@+id/region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/continent"
+        android:textSize="15dp" 
+        android:text="TextView" />
+ 
+    <TextView
+          android:textColor="#272727"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:textSize="15dp" 
+        android:text="TextView" />
+ 
+    <TextView
+            android:textColor="#272727"
+          android:textSize="17dp"
+        android:textStyle="bold"  
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/name"        
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView5"
+          android:textColor="#272727"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:textSize="15dp"
+        android:text="PO Amt   :" />
+
+    <TextView
+        android:id="@+id/textView6"
+          android:textColor="#272727"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toRightOf="@+id/textView1"
+        android:textSize="15dp"
+        android:text="Capex   :" />
+ 
+</RelativeLayout>
+<!-- From: file:/C:/Users/San/StudioProjects/Stores%20Purchase/app/src/main/res/layout/po_custom.xml -->
