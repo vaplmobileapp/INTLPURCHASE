@@ -45,7 +45,7 @@ public class Lastpur extends Activity {
 			try
 			{				
 				HttpClient httpclient = new DefaultHttpClient();
-				String surl = "http://223.30.82.99:8080/Purchase/lastpur.php?var1="+item_id+"&var2="+Branch;							
+				String surl = "http://117.232.65.99:8080/Purchase/lastpur.php?var1="+item_id+"&var2="+Branch;
 				HttpPost httppost = new HttpPost(surl);			
 				HttpResponse response = httpclient.execute(httppost);
 				HttpEntity entity = response.getEntity();

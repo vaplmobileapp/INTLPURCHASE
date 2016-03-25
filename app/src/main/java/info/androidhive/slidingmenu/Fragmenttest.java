@@ -58,7 +58,7 @@ public class Fragmenttest extends Fragment {
 				try
 				{				
 					HttpClient httpclient = new DefaultHttpClient();
-					String surl = "http://223.30.82.99:8080/Purchase/itemdet.php?var1="+myInt;
+					String surl = "http://117.232.65.99:8080/Purchase/itemdet.php?var1="+myInt;
 					HttpPost httppost = new HttpPost(surl);			
 					HttpResponse response = httpclient.execute(httppost);
 					HttpEntity entity = response.getEntity();
@@ -158,7 +158,7 @@ public class Fragmenttest extends Fragment {
 	    	try
 			{				
 				HttpClient httpclient = new DefaultHttpClient();
-				String surl = "http://223.30.82.99:8080/Purchase/App.php?var1="+myInt+"&var2=International";
+				String surl = "http://117.232.65.99:8080/Purchase/App.php?var1="+myInt+"&var2=International";
 				HttpPost httppost = new HttpPost(surl);
 				HttpResponse response = httpclient.execute(httppost);
 				HttpEntity entity = response.getEntity();

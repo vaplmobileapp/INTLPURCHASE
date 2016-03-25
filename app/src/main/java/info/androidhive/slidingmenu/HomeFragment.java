@@ -60,7 +60,7 @@ public class HomeFragment extends Fragment {
 		{
 			HttpClient httpclient = new DefaultHttpClient();
 			//val_branch=val_branch.replace(" ", "");
-			String surl = "http://223.30.82.99:8080/Purchase/Order.php?var1=International";
+			String surl = "http://117.232.65.99:8080/Purchase/Order.php?var1=International";
 			HttpPost httppost = new HttpPost(surl);			
 			HttpResponse response = httpclient.execute(httppost);
 			HttpEntity entity = response.getEntity();

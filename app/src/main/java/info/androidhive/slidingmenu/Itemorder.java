@@ -58,7 +58,7 @@ public class Itemorder extends Activity {
 				try
 				{				
 					HttpClient httpclient = new DefaultHttpClient();
-					String surl = "http://223.30.82.99:8080/Purchase/itemdet.php?var1="+Ord_id;
+					String surl = "http://117.232.65.99:8080/Purchase/itemdet.php?var1="+Ord_id;
 					HttpPost httppost = new HttpPost(surl);			
 					HttpResponse response = httpclient.execute(httppost);
 					HttpEntity entity = response.getEntity();
@@ -157,7 +157,7 @@ public class Itemorder extends Activity {
 	    	try
 			{				
 				HttpClient httpclient = new DefaultHttpClient();
-				String surl = "http://223.30.82.99:8080/Purchase/App.php?var1="+App_id;
+				String surl = "http://117.232.65.99:8080/Purchase/App.php?var1="+App_id;
 				HttpPost httppost = new HttpPost(surl);
 				HttpResponse response = httpclient.execute(httppost);
 				HttpEntity entity = response.getEntity();
